@@ -1,0 +1,73 @@
+    h1{
+       font-size: 50px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       margin-left: 30px;
+   }
+  
+    .links{
+        background-color:#94ad93;
+        font-size: 30px;
+        margin-right:  20px; 
+        
+    }
+    .links a{
+        margin-right: 20px;
+    }
+    .title{
+        display :flex;
+        justify-content:space-between;
+        
+    }
+    .grid{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-top: 50px;
+       
+    }
+    .social{
+        display: flex;
+        justify-content: flex-end;
+        margin: 30px; ;
+       
+    }
+    .social a{
+        margin: 20px;
+    }
+    p,h2{
+        text-align: center;
+    }
+    body{
+        background-color:#94ad93;
+    }
+    .contact{
+        border: black 2px solid;
+        margin-left: 250px;
+        margin-right: 250px;
+        padding: 10px;
+    }
+    .gameName{
+        font-size: 20px;
+        color:#000000 ;
+    }
+    .items{
+       position: relative;
+      
+    }
+    .items p{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        opacity: 0;
+        font-size:30px;
+        color: black;
+    }
+    .items:hover p{
+        opacity: 1;
+        
+       
+    }
+    .items:hover img{
+        opacity: 0.3;
+    }
